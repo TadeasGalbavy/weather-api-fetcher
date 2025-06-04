@@ -26,3 +26,11 @@ A simple Python script that connects to the OpenWeatherMap API to fetch real-tim
 2. Replace the API key with your own in the script:
 ```python
 api_key = "your_own_key_here"
+
+Example Output
+Počasie pre mesto: Bratislava
+- teplota: 24.7
+- vlhkosť: 56
+- pocitová teplota: 26.1
+- obloha: clear sky
+- rýchlosť vetra: 2.6
