@@ -22,7 +22,7 @@ def nacitaj_mesta():
 
 def ziskaj_pocasie_pre_mesto(mesto):
 
-    api_key = "f78cc36682d19d151667e0c3da66305f"
+    api_key = "your_api_key"
 
     response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={mesto}&appid={api_key}&units=metric")
 
